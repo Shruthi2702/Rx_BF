@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<block>
+  <name>forward_block</name>
+  <key>howto_forward_block</key>
+  <category>howto</category>
+  <import>import howto</import>
+  <make>howto.forward_block($sample_rate, $rx_min_treshold, $rx_max_treshold, $time_delay, $time_cycle, $packet_length, $max_missed_symbols, $nbr_zeros_per_burst)</make>
+  <!-- Make one 'param' node for every Parameter you want settable from the GUI.
+       Sub-nodes:
+       * name
+       * key (makes the value accessible as $keyname, e.g. in the make node)
+       * type -->
+  <param>
+    <name>Sampling rate</name>
+	<key>sample_rate</key>
+	<value>samp_rate</value>
+	<type>real</type>
+  </param>   
+  <param>
+	<name>Rx Min Treshold</name>
+	<key>rx_min_treshold</key>
+	<value>0.005</value>
+	<type>real</type>
+  </param>
+  <param>
+	<name>Rx Max Treshold</name>
+	<key>rx_max_treshold</key>
+	<value>1</value>
+	<type>real</type>
+  </param>
+  <param>
+	<name>Time delay</name>
+	<key>time_delay</key>
+	<value>0.015</value>
+	<type>real</type>
+  </param>
+  <param>
+	<name>Time cycle</name>
+	<key>time_cycle</key>
+	<value>0.050</value>
+	<type>real</type>
+  </param>
+  <param>
+	<name>Packet length</name>
+	<key>packet_length</key>
+	<value>1000</value>
+	<type>real</type>
+  </param>
+  <param>
+	<name>Nbr max missed symbols</name>
+	<key>max_missed_symbols</key>
+	<value>20</value>
+	<type>real</type>
+  </param>
+  <param>
+	<name>Nbr zeros per burst</name>
+	<key>nbr_zeros_per_burst</key>
+	<value>1000</value>
+	<type>real</type>
+  </param>
+
+  <!-- Make one 'sink' node per input. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <sink>
+    <name>in</name>
+    <type>complex</type>
+  </sink>
+
+  <source>
+    <name>out</name>
+    <type>complex</type>
+  </source>
+</block>

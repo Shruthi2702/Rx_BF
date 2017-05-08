@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<block>
+  <name>randphpert</name>
+  <key>howto_randphpert</key>
+  <category>howto</category>
+  <import>import howto</import>
+  <make>howto.randphpert()</make>
+  <!-- Make one 'param' node for every Parameter you want settable from the GUI.
+       Sub-nodes:
+       * name
+       * key (makes the value accessible as $keyname, e.g. in the make node)
+       * type -->
+  <callback>set_bf_flag($bf_flag)</callback>
+  <param>
+    <name>perturbation angle (degrees)</name>
+    <key>random_perturbation_size</key>
+    <type>real</type>
+  </param>
+
+ <param>
+   <name>Beamforming (On/Off)?</name>
+        <key>bf_flag</key>
+        <type>int</type>
+  </param>
+
+  <!-- Make one 'sink' node per input. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <sink>
+   <name>in</name>
+    <type>float</type>
+  </sink>
+  <doc>
+Beamforming (On/Off)?: To turn-off the beamforming put 0. Beamforming is On by default.
+Available functions to probe: gr_complex poll_complex_gain()
+Use with the function probe block.
+</doc>
+
+  <!-- Make one 'source' node per output. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+</block>

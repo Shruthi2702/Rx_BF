@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<block>
+  <name>relayBF</name>
+  <key>howto_relayBF</key>
+  <category>howto</category>
+  <import>import howto</import>
+  <make>howto.relayBF($bf_weight)</make>
+  <!-- Make one 'param' node for every Parameter you want settable from the GUI.
+       Sub-nodes:
+       * name
+       * key (makes the value accessible as $keyname, e.g. in the make node)
+       * type -->
+  <callback>set_bf_weight($bf_weight)</callback>
+  <param>
+        <name>BF Weight</name>
+        <key>bf_weight</key>
+        <type>complex</type>
+  </param>
+
+
+  <!-- Make one 'sink' node per input. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <sink>
+    <name>in</name>
+    <type>complex</type>
+  </sink>
+
+  
+
+  <!-- Make one 'source' node per output. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <source>
+    <name>out</name>
+    <type>complex</type>
+  </source>
+</block>

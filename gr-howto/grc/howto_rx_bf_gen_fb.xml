@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<block>
+  <name>rx_bf_gen_fb</name>
+  <key>howto_rx_bf_gen_fb</key>
+  <category>howto</category>
+  <import>import howto</import>
+  <make>howto.rx_bf_gen_fb($sampling_rate, $treshold, $decim_factor, $nbr_samples_packet, $nbr_samples_cycle, $delay_security_factor, $time_delay)</make>
+  <!-- Make one 'param' node for every Parameter you want settable from the GUI.
+       Sub-nodes:
+       * name
+       * key (makes the value accessible as $keyname, e.g. in the make node)
+       * type -->
+  <param>
+        <name>Input Sampling Rate</name>
+        <key>sampling_rate</key>
+	<value>samp_rate</value>
+        <type>real</type>
+  </param>
+  <param>
+        <name>Treshold</name>
+        <key>treshold</key>
+	<value>0.00025</value>
+        <type>real</type>
+  </param>  
+  <param>
+        <name>Decimation Factor</name>
+        <key>decim_factor</key>
+	<value>10000</value>
+        <type>int</type>
+  </param>
+  <param>
+        <name>Nbr samples packet</name>
+        <key>nbr_samples_packet</key>
+	<value>900</value>
+        <type>int</type>
+  </param>
+  <param>
+        <name>Nbr samples cycle</name>
+        <key>nbr_samples_cycle</key>
+	<value>10000</value>
+        <type>int</type>
+  </param>
+  <param>
+        <name>Delay security coeff</name>
+        <key>delay_security_factor</key>
+	<value>1.2</value>
+        <type>real</type>
+  </param>
+  <param>
+        <name>Time delay</name>
+        <key>time_delay</key>
+	<value>0.015</value>
+        <type>real</type>
+  </param>
+
+  <sink>
+    <name>in</name>
+    <type>complex</type>
+  </sink>
+
+  <source>
+    <name>out</name>
+    <type>float</type>
+  </source>
+</block>
