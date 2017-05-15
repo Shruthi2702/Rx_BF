@@ -10,6 +10,6 @@
 
 #### NOTE: Follow the above steps on all four computers that is being used
 
-#### Open the grc files available in the grc folder in each computer.
+#### Open the grc files available in the grc folder in each computer. One for transmitter, two for receiver and one for receiver flow graph
 #### i.e., tx_bf.grc, relay.grc, rx_node.grc
 #### Now connect the USRP devices accordingly for each flow graph and run the top_block.py python file.
