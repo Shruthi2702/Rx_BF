@@ -8,8 +8,8 @@
 5. sudo make install
 6. sudo ldconfig
 
-### Follow the above steps on all four computers that is being used
+#### NOTE: Follow the above steps on all four computers that is being used
 
 #### Open the grc files available in the grc folder in each computer.
-#### i.e., 
+#### i.e., tx_bf.grc, relay.grc, rx_node.grc
 #### Now connect the USRP devices accordingly for each flow graph and run the top_block.py python file.
