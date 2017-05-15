@@ -1,4 +1,4 @@
-# Install script for directory: /home/madhuprana/gr-howto/apps
+# Install script for directory: /home/shruthi/Rx_BF/gr-howto/apps
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

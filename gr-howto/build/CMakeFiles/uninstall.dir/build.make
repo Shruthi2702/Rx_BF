@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/madhuprana/gr-howto
+CMAKE_SOURCE_DIR = /home/shruthi/Rx_BF/gr-howto
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/madhuprana/gr-howto/build
+CMAKE_BINARY_DIR = /home/shruthi/Rx_BF/gr-howto/build
 
 # Utility rule file for uninstall.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/madhuprana/gr-howto/build
 include CMakeFiles/uninstall.dir/progress.make
 
 CMakeFiles/uninstall:
-	/usr/bin/cmake -P /home/madhuprana/gr-howto/build/cmake_uninstall.cmake
+	/usr/bin/cmake -P /home/shruthi/Rx_BF/gr-howto/build/cmake_uninstall.cmake
 
 uninstall: CMakeFiles/uninstall
 uninstall: CMakeFiles/uninstall.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/madhuprana/gr-howto/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/madhuprana/gr-howto /home/madhuprana/gr-howto /home/madhuprana/gr-howto/build /home/madhuprana/gr-howto/build /home/madhuprana/gr-howto/build/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/shruthi/Rx_BF/gr-howto/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/shruthi/Rx_BF/gr-howto /home/shruthi/Rx_BF/gr-howto /home/shruthi/Rx_BF/gr-howto/build /home/shruthi/Rx_BF/gr-howto/build /home/shruthi/Rx_BF/gr-howto/build/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

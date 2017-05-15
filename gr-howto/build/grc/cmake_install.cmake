@@ -1,4 +1,4 @@
-# Install script for directory: /home/madhuprana/gr-howto/grc
+# Install script for directory: /home/shruthi/Rx_BF/gr-howto/grc
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,12 +34,12 @@ endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gnuradio/grc/blocks" TYPE FILE FILES
-    "/home/madhuprana/gr-howto/grc/howto_rxbf_tx.xml"
-    "/home/madhuprana/gr-howto/grc/howto_rx_bf_gen_fb.xml"
-    "/home/madhuprana/gr-howto/grc/howto_relayBF.xml"
-    "/home/madhuprana/gr-howto/grc/howto_randphpert.xml"
-    "/home/madhuprana/gr-howto/grc/howto_forward_block.xml"
-    "/home/madhuprana/gr-howto/grc/howto_random_ph_pert.xml"
+    "/home/shruthi/Rx_BF/gr-howto/grc/howto_rxbf_tx.xml"
+    "/home/shruthi/Rx_BF/gr-howto/grc/howto_rx_bf_gen_fb.xml"
+    "/home/shruthi/Rx_BF/gr-howto/grc/howto_relayBF.xml"
+    "/home/shruthi/Rx_BF/gr-howto/grc/howto_randphpert.xml"
+    "/home/shruthi/Rx_BF/gr-howto/grc/howto_forward_block.xml"
+    "/home/shruthi/Rx_BF/gr-howto/grc/howto_random_ph_pert.xml"
     )
 endif()
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/madhuprana/gr-howto
+# Install script for directory: /home/shruthi/Rx_BF/gr-howto
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,18 +33,18 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/howto" TYPE FILE FILES "/home/madhuprana/gr-howto/cmake/Modules/howtoConfig.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/howto" TYPE FILE FILES "/home/shruthi/Rx_BF/gr-howto/cmake/Modules/howtoConfig.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/madhuprana/gr-howto/build/include/howto/cmake_install.cmake")
-  include("/home/madhuprana/gr-howto/build/lib/cmake_install.cmake")
-  include("/home/madhuprana/gr-howto/build/swig/cmake_install.cmake")
-  include("/home/madhuprana/gr-howto/build/python/cmake_install.cmake")
-  include("/home/madhuprana/gr-howto/build/grc/cmake_install.cmake")
-  include("/home/madhuprana/gr-howto/build/apps/cmake_install.cmake")
-  include("/home/madhuprana/gr-howto/build/docs/cmake_install.cmake")
+  include("/home/shruthi/Rx_BF/gr-howto/build/include/howto/cmake_install.cmake")
+  include("/home/shruthi/Rx_BF/gr-howto/build/lib/cmake_install.cmake")
+  include("/home/shruthi/Rx_BF/gr-howto/build/swig/cmake_install.cmake")
+  include("/home/shruthi/Rx_BF/gr-howto/build/python/cmake_install.cmake")
+  include("/home/shruthi/Rx_BF/gr-howto/build/grc/cmake_install.cmake")
+  include("/home/shruthi/Rx_BF/gr-howto/build/apps/cmake_install.cmake")
+  include("/home/shruthi/Rx_BF/gr-howto/build/docs/cmake_install.cmake")
 
 endif()
 
@@ -56,5 +56,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/madhuprana/gr-howto/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/shruthi/Rx_BF/gr-howto/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

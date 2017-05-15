@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/madhuprana/gr-howto
+CMAKE_SOURCE_DIR = /home/shruthi/Rx_BF/gr-howto
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/madhuprana/gr-howto/build
+CMAKE_BINARY_DIR = /home/shruthi/Rx_BF/gr-howto/build
 
 # Utility rule file for pygen_apps_9a6dd.
 
@@ -63,10 +63,10 @@ apps/CMakeFiles/pygen_apps_9a6dd.dir/build: pygen_apps_9a6dd
 .PHONY : apps/CMakeFiles/pygen_apps_9a6dd.dir/build
 
 apps/CMakeFiles/pygen_apps_9a6dd.dir/clean:
-	cd /home/madhuprana/gr-howto/build/apps && $(CMAKE_COMMAND) -P CMakeFiles/pygen_apps_9a6dd.dir/cmake_clean.cmake
+	cd /home/shruthi/Rx_BF/gr-howto/build/apps && $(CMAKE_COMMAND) -P CMakeFiles/pygen_apps_9a6dd.dir/cmake_clean.cmake
 .PHONY : apps/CMakeFiles/pygen_apps_9a6dd.dir/clean
 
 apps/CMakeFiles/pygen_apps_9a6dd.dir/depend:
-	cd /home/madhuprana/gr-howto/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/madhuprana/gr-howto /home/madhuprana/gr-howto/apps /home/madhuprana/gr-howto/build /home/madhuprana/gr-howto/build/apps /home/madhuprana/gr-howto/build/apps/CMakeFiles/pygen_apps_9a6dd.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/shruthi/Rx_BF/gr-howto/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/shruthi/Rx_BF/gr-howto /home/shruthi/Rx_BF/gr-howto/apps /home/shruthi/Rx_BF/gr-howto/build /home/shruthi/Rx_BF/gr-howto/build/apps /home/shruthi/Rx_BF/gr-howto/build/apps/CMakeFiles/pygen_apps_9a6dd.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : apps/CMakeFiles/pygen_apps_9a6dd.dir/depend
 

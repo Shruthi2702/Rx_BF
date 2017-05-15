@@ -46,13 +46,13 @@ howto/api.h
 gnuradio/block.h
 -
 
-/home/madhuprana/gr-howto/lib/forward_block_impl.cc
+/home/shruthi/Rx_BF/gr-howto/lib/forward_block_impl.cc
 config.h
-/home/madhuprana/gr-howto/lib/config.h
+/home/shruthi/Rx_BF/gr-howto/lib/config.h
 gnuradio/io_signature.h
 -
 forward_block_impl.h
-/home/madhuprana/gr-howto/lib/forward_block_impl.h
+/home/shruthi/Rx_BF/gr-howto/lib/forward_block_impl.h
 gnuradio/math.h
 -
 stdio.h
@@ -74,7 +74,7 @@ boost/foreach.hpp
 boost/format.hpp
 -
 
-/home/madhuprana/gr-howto/lib/forward_block_impl.h
+/home/shruthi/Rx_BF/gr-howto/lib/forward_block_impl.h
 howto/forward_block.h
 -
 gsl/gsl_vector.h
@@ -86,17 +86,17 @@ gsl/gsl_complex.h
 gsl/gsl_complex_math.h
 -
 
-/home/madhuprana/gr-howto/lib/random_ph_pert_impl.cc
+/home/shruthi/Rx_BF/gr-howto/lib/random_ph_pert_impl.cc
 config.h
-/home/madhuprana/gr-howto/lib/config.h
+/home/shruthi/Rx_BF/gr-howto/lib/config.h
 gnuradio/fxpt.h
 -
 gnuradio/io_signature.h
 -
 random_ph_pert_impl.h
-/home/madhuprana/gr-howto/lib/random_ph_pert_impl.h
+/home/shruthi/Rx_BF/gr-howto/lib/random_ph_pert_impl.h
 
-/home/madhuprana/gr-howto/lib/random_ph_pert_impl.h
+/home/shruthi/Rx_BF/gr-howto/lib/random_ph_pert_impl.h
 gnuradio/analog/noise_type.h
 -
 gnuradio/random.h
@@ -106,17 +106,17 @@ gnuradio/sync_block.h
 howto/random_ph_pert.h
 -
 
-/home/madhuprana/gr-howto/lib/randphpert_impl.cc
+/home/shruthi/Rx_BF/gr-howto/lib/randphpert_impl.cc
 config.h
-/home/madhuprana/gr-howto/lib/config.h
+/home/shruthi/Rx_BF/gr-howto/lib/config.h
 gnuradio/fxpt.h
 -
 gnuradio/io_signature.h
 -
 randphpert_impl.h
-/home/madhuprana/gr-howto/lib/randphpert_impl.h
+/home/shruthi/Rx_BF/gr-howto/lib/randphpert_impl.h
 
-/home/madhuprana/gr-howto/lib/randphpert_impl.h
+/home/shruthi/Rx_BF/gr-howto/lib/randphpert_impl.h
 gnuradio/analog/noise_type.h
 -
 gnuradio/random.h
@@ -126,23 +126,23 @@ gnuradio/sync_block.h
 howto/randphpert.h
 -
 
-/home/madhuprana/gr-howto/lib/relayBF_impl.cc
+/home/shruthi/Rx_BF/gr-howto/lib/relayBF_impl.cc
 config.h
-/home/madhuprana/gr-howto/lib/config.h
+/home/shruthi/Rx_BF/gr-howto/lib/config.h
 gnuradio/io_signature.h
 -
 relayBF_impl.h
-/home/madhuprana/gr-howto/lib/relayBF_impl.h
+/home/shruthi/Rx_BF/gr-howto/lib/relayBF_impl.h
 
-/home/madhuprana/gr-howto/lib/relayBF_impl.h
+/home/shruthi/Rx_BF/gr-howto/lib/relayBF_impl.h
 howto/relayBF.h
 -
 gnuradio/sync_block.h
 -
 
-/home/madhuprana/gr-howto/lib/rx_bf_gen_fb_impl.cc
+/home/shruthi/Rx_BF/gr-howto/lib/rx_bf_gen_fb_impl.cc
 config.h
-/home/madhuprana/gr-howto/lib/config.h
+/home/shruthi/Rx_BF/gr-howto/lib/config.h
 stdio.h
 -
 gnuradio/fxpt.h
@@ -152,7 +152,7 @@ gnuradio/math.h
 gnuradio/io_signature.h
 -
 rx_bf_gen_fb_impl.h
-/home/madhuprana/gr-howto/lib/rx_bf_gen_fb_impl.h
+/home/shruthi/Rx_BF/gr-howto/lib/rx_bf_gen_fb_impl.h
 algorithm
 -
 boost/foreach.hpp
@@ -160,7 +160,7 @@ boost/foreach.hpp
 boost/format.hpp
 -
 
-/home/madhuprana/gr-howto/lib/rx_bf_gen_fb_impl.h
+/home/shruthi/Rx_BF/gr-howto/lib/rx_bf_gen_fb_impl.h
 howto/rx_bf_gen_fb.h
 -
 gnuradio/sync_decimator.h
@@ -170,9 +170,9 @@ gnuradio/analog/noise_type.h
 gnuradio/random.h
 -
 
-/home/madhuprana/gr-howto/lib/rxbf_tx_impl.cc
+/home/shruthi/Rx_BF/gr-howto/lib/rxbf_tx_impl.cc
 config.h
-/home/madhuprana/gr-howto/lib/config.h
+/home/shruthi/Rx_BF/gr-howto/lib/config.h
 gnuradio/math.h
 -
 gnuradio/fxpt.h
@@ -180,7 +180,7 @@ gnuradio/fxpt.h
 gnuradio/io_signature.h
 -
 rxbf_tx_impl.h
-/home/madhuprana/gr-howto/lib/rxbf_tx_impl.h
+/home/shruthi/Rx_BF/gr-howto/lib/rxbf_tx_impl.h
 gsl/gsl_vector.h
 -
 gsl/gsl_blas.h
@@ -190,7 +190,7 @@ gsl/gsl_complex.h
 gsl/gsl_complex_math.h
 -
 
-/home/madhuprana/gr-howto/lib/rxbf_tx_impl.h
+/home/shruthi/Rx_BF/gr-howto/lib/rxbf_tx_impl.h
 howto/rxbf_tx.h
 -
 

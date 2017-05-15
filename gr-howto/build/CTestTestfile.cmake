@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/madhuprana/gr-howto
-# Build directory: /home/madhuprana/gr-howto/build
+# Source directory: /home/shruthi/Rx_BF/gr-howto
+# Build directory: /home/shruthi/Rx_BF/gr-howto/build
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

@@ -6,5 +6,5 @@ CXX_FLAGS = -O3 -DNDEBUG -fPIC   -fvisibility=hidden
 
 CXX_DEFINES = -Dgnuradio_howto_EXPORTS
 
-CXX_INCLUDES = -I/home/madhuprana/gr-howto/lib -I/home/madhuprana/gr-howto/include -I/home/madhuprana/gr-howto/build/lib -I/home/madhuprana/gr-howto/build/include 
+CXX_INCLUDES = -I/home/shruthi/Rx_BF/gr-howto/lib -I/home/shruthi/Rx_BF/gr-howto/include -I/home/shruthi/Rx_BF/gr-howto/build/lib -I/home/shruthi/Rx_BF/gr-howto/build/include 
 

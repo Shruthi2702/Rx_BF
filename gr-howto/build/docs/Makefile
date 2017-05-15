@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/madhuprana/gr-howto
+CMAKE_SOURCE_DIR = /home/shruthi/Rx_BF/gr-howto
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/madhuprana/gr-howto/build
+CMAKE_BINARY_DIR = /home/shruthi/Rx_BF/gr-howto/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -135,14 +135,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/madhuprana/gr-howto/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/madhuprana/gr-howto/build/CMakeFiles /home/madhuprana/gr-howto/build/docs/CMakeFiles/progress.marks
-	cd /home/madhuprana/gr-howto/build && $(MAKE) -f CMakeFiles/Makefile2 docs/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/madhuprana/gr-howto/build/CMakeFiles 0
+	cd /home/shruthi/Rx_BF/gr-howto/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/shruthi/Rx_BF/gr-howto/build/CMakeFiles /home/shruthi/Rx_BF/gr-howto/build/docs/CMakeFiles/progress.marks
+	cd /home/shruthi/Rx_BF/gr-howto/build && $(MAKE) -f CMakeFiles/Makefile2 docs/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shruthi/Rx_BF/gr-howto/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/madhuprana/gr-howto/build && $(MAKE) -f CMakeFiles/Makefile2 docs/clean
+	cd /home/shruthi/Rx_BF/gr-howto/build && $(MAKE) -f CMakeFiles/Makefile2 docs/clean
 .PHONY : clean
 
 # The main clean target
@@ -152,17 +152,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/madhuprana/gr-howto/build && $(MAKE) -f CMakeFiles/Makefile2 docs/preinstall
+	cd /home/shruthi/Rx_BF/gr-howto/build && $(MAKE) -f CMakeFiles/Makefile2 docs/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/madhuprana/gr-howto/build && $(MAKE) -f CMakeFiles/Makefile2 docs/preinstall
+	cd /home/shruthi/Rx_BF/gr-howto/build && $(MAKE) -f CMakeFiles/Makefile2 docs/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/madhuprana/gr-howto/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/shruthi/Rx_BF/gr-howto/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -189,6 +189,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/madhuprana/gr-howto/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/shruthi/Rx_BF/gr-howto/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

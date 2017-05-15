@@ -1,4 +1,4 @@
-# Install script for directory: /home/madhuprana/gr-howto/python
+# Install script for directory: /home/shruthi/Rx_BF/gr-howto/python
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,13 +33,13 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/howto" TYPE FILE FILES "/home/madhuprana/gr-howto/python/__init__.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/howto" TYPE FILE FILES "/home/shruthi/Rx_BF/gr-howto/python/__init__.py")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/howto" TYPE FILE FILES
-    "/home/madhuprana/gr-howto/build/python/__init__.pyc"
-    "/home/madhuprana/gr-howto/build/python/__init__.pyo"
+    "/home/shruthi/Rx_BF/gr-howto/build/python/__init__.pyc"
+    "/home/shruthi/Rx_BF/gr-howto/build/python/__init__.pyo"
     )
 endif()
 

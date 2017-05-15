@@ -1,4 +1,4 @@
-# Install script for directory: /home/madhuprana/gr-howto/include/howto
+# Install script for directory: /home/shruthi/Rx_BF/gr-howto/include/howto
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,13 +34,13 @@ endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/howto" TYPE FILE FILES
-    "/home/madhuprana/gr-howto/include/howto/api.h"
-    "/home/madhuprana/gr-howto/include/howto/rxbf_tx.h"
-    "/home/madhuprana/gr-howto/include/howto/rx_bf_gen_fb.h"
-    "/home/madhuprana/gr-howto/include/howto/relayBF.h"
-    "/home/madhuprana/gr-howto/include/howto/randphpert.h"
-    "/home/madhuprana/gr-howto/include/howto/forward_block.h"
-    "/home/madhuprana/gr-howto/include/howto/random_ph_pert.h"
+    "/home/shruthi/Rx_BF/gr-howto/include/howto/api.h"
+    "/home/shruthi/Rx_BF/gr-howto/include/howto/rxbf_tx.h"
+    "/home/shruthi/Rx_BF/gr-howto/include/howto/rx_bf_gen_fb.h"
+    "/home/shruthi/Rx_BF/gr-howto/include/howto/relayBF.h"
+    "/home/shruthi/Rx_BF/gr-howto/include/howto/randphpert.h"
+    "/home/shruthi/Rx_BF/gr-howto/include/howto/forward_block.h"
+    "/home/shruthi/Rx_BF/gr-howto/include/howto/random_ph_pert.h"
     )
 endif()
 
